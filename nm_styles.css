@@ -5,7 +5,7 @@ pwd
 .slideContainer {width: 100%; height: 100%; text-align: center;display: table-cell; position: inherit}
 .slideImg {width: 1200px; height: 800px; margin-left: 10%; border: 30px; padding: 40px;}
 .gal-img {width: 100%; height: auto;}
-.gal-image-col {margin-right: -37px;}
+.gal-image-col {margin-right: -60px;}
 .article-image { width: 100%; height: auto;max-width: 291px; max-height: 237px;}
 .article-image-div {margin-top: 60px; }
 .nm-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
@@ -31,6 +31,7 @@ pwd
 .nm-content, .nm-auto {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 55px;
 }
 
 nm-red, .nm-hover-red:hover {
@@ -161,10 +162,7 @@ a {
 a {
   background-color: transparent;
 }
-.nm-content, .nm-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .nm-main, #main {
   transition: margin-left .4s;
 }
@@ -180,7 +178,7 @@ html, body {
   filter: grayscale(50%);
 }
 .nm-container:after, .nm-container:before, .nm-panel:after, .nm-panel:before, .nm-row:after, .nm-row:before, 
-.nm-row-padding:after, .nm-row-padding:before, .nm-cell-row:before, .nm-cell-row:after, .nm-clear:after, 
+.nm-row-padding:after, .nm-cell-row:before, .nm-cell-row:after, .nm-clear:after, 
 .nm-clear:before, .nm-bar:before, .nm-bar:after {
   content: "";
   display: table;
