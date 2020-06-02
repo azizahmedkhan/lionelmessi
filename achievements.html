@@ -4,29 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="w3.css">
+  <link rel="stylesheet" href="nm_styles.css">
   
 <body>
 
 <!-- Navbar -->
-<div class="w3-top">
-  <div class="w3-bar w3-red w3-card w3-left-align w3-large">
-    <img class="w3-bar-item w3-button w3-padding-large" src="thumbnails/nm_logo_tn.jpg.jpg" height="73" width="100">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="personalLife.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Personal Life</a>
-    <a href="achievements.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Acheivements</a>
-    <a href="imagegallery.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Image Gallery</a>
+<div class="nm-top">
+  <div class="nm-bar nm-red nm-card nm-left-align nm-large">
+    <img class="nm-bar-item nm-button nm-padding-large" src="thumbnails/nm_logo_tn.jpg.jpg" height="73" width="100">
+    <a class="nm-bar-item nm-button nm-hide-medium nm-hide-large nm-right nm-padding-large nm-hover-white nm-large nm-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="nm-bar-item nm-button nm-padding-large nm-white">Home</a>
+    <a href="personalLife.html" class="nm-bar-item nm-button nm-hide-small nm-padding-large nm-hover-white">Personal Life</a>
+    <a href="achievements.html" class="nm-bar-item nm-button nm-hide-small nm-padding-large nm-hover-white">Acheivements</a>
+    <a href="imagegallery.html" class="nm-bar-item nm-button nm-hide-small nm-padding-large nm-hover-white">Image Gallery</a>
   </div>
 </div>
 
 
-<div class="w3-row-padding w3-padding-64 w3-container">
-  <div class="w3-content">
-    <div class="w3-row">
-    <div class="w3-twothird">
+<div class="nm-row-padding nm-padding-64 nm-container">
+  <div class="nm-content">
+    <div class="nm-row">
+    <div class="nm-twothird">
       <h1>WORLD RECORDS</h1>
-      <h5 class="w3-padding-32">
+      <h5 class="nm-padding-32">
         Most FIFA Ballon d'Or awards:4<br/>
         Guinness World Records title for the most goals/year:91 goals<br/>
         Most international goals in a year:25 goals<br/>
@@ -34,17 +34,17 @@
         Most consecutive league matches scored in:19 matches<br/>
       </h5>
     </div>
-    <div class="w3-third w3-center article-image-div">
+    <div class="nm-third nm-center article-image-div">
       <a href="achievementspics/nm_ap5.jpeg" target="_blank">
         <img class="article-image" src="achievementspics/nm_ap5.jpeg" >
       </a>
     </div>
   </div>
 
-  <div class="w3-row">
-    <div class="w3-twothird">
+  <div class="nm-row">
+    <div class="nm-twothird">
       <h1>EUROPE RECORDS</h1>
-      <h5 class="w3-padding-32">
+      <h5 class="nm-padding-32">
         Most goals scored in a season (club):73 goals<br/>
         Most goals scored in a year (club):79 goals<br/>
         Most goals scored in a European Cup season:14 goals<br/>
@@ -52,35 +52,35 @@
         Highest scorer in a European Cup game:5 goals<br/>
       </h5>
     </div>
-      <div class="w3-third w3-center article-image-div">
+      <div class="nm-third nm-center article-image-div">
         <a href="achievementspics/nm_ap6.jpeg" target="_blank">
           <img class="article-image" src="achievementspics/nm_ap6.jpeg" >
         </a>
       </div>
   </div>
-  <div class="w3-row">
-      <div class="w3-twothird">
+  <div class="nm-row">
+      <div class="nm-twothird">
         <h1>ARGENTINA RECORDS</h1>
-        <h5 class="w3-padding-32">
+        <h5 class="nm-padding-32">
           Most goals scored in a year (national team):12 goals
         </h5>
       </div>
-      <div class="w3-third w3-center article-image-div">
+      <div class="nm-third nm-center article-image-div">
         <a href="achievementspics/nm_ap8.jpg" target="_blank">
           <img class="article-image" src="achievementspics/nm_ap8.jpg" >
         </a>
       </div>
   </div>
-  <div class="w3-row">
-      <div class="w3-twothird">
+  <div class="nm-row">
+      <div class="nm-twothird">
         <h1>SPAIN RECORDS</h1>
-        <h5 class="w3-padding-32">
+        <h5 class="nm-padding-32">
           Most goals scored in La Liga in a season:50 goals<br/>
           Most La Liga hat-tricks in a season:8 hat-tricks<br/>
           Most goals scored in the Supercopa de Espana: 10 goals<br/>
         </h5>
       </div>
-      <div class="w3-third w3-center article-image-div">
+      <div class="nm-third nm-center article-image-div">
         <a href="achievementspics/nm_ap7.jpg" target="_blank">
           <img class="article-image" src="achievementspics/nm_ap7.jpg" >
         </a>
@@ -93,10 +93,10 @@
 // Used to toggle the menu on small screens when clicking on the menu button
 function myFunction() {
   var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
+  if (x.className.indexOf("nm-show") == -1) {
+    x.className += " nm-show";
   } else { 
-    x.className = x.className.replace(" w3-show", "");
+    x.className = x.className.replace(" nm-show", "");
   }
 }
 </script>
