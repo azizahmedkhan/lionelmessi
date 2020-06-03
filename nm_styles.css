@@ -14,8 +14,8 @@ a { background-color: transparent; }
 .slideImg {width: 100%; height: auto; }
 .gal-img {width: 100%; height: auto;}
 .gal-image-col {margin-right: 0px;}
-.article-image { width: 100%; height: auto;}
-.article-image-div {margin-top: 60px; }
+.article-image { width: 100%; height: auto; }
+.article-image-div {margin-top: 60px; width: 300px; display: inline-table;}
 .nm-image{max-width:100%;height:auto}img{vertical-align:middle}a{color:inherit}
 .nm-red,.nm-hover-red:hover{color:#fff!important;background-color:#f44336!important}
 .nm-left-align{text-align:left!important}.nm-right-align{text-align:right!important}.nm-justify{text-align:justify!important}.nm-center{text-align:center!important}

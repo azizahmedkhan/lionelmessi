@@ -7,11 +7,11 @@
 <div class="nm-top">
   <div class="nm-bar nm-red nm-card nm-left-align nm-large">
     
-    <img class="nm-bar-item nm-button nm-padding-large" src="thumbnails/nm_logo_tn.jpg.jpg" height="73" width="100">    
+    <img class="nm-bar-item nm-button nm-padding-large" src="thumbnails/nm_logo_tn.jpg.jpg" height="73" width="100" />    
     <a href="index.html" class="nm-bar-item nm-button nm-padding-large nm-white">Home</a>
-    <a href="personalLife.html" class="nm-button nm-padding-large">Personal Life</a>
-    <a href="achievements.html" class=" nm-button nm-padding-large">Acheivements</a>
-    <a href="imagegallery.html" class=" nm-button nm-padding-large">Image Gallery</a>
+    <a href="personalLife.html" class="nm-bar-item nm-button nm-padding-large">Personal Life</a>
+    <a href="achievements.html" class="nm-bar-item nm-button nm-padding-large">Acheivements</a>
+    <a href="imagegallery.html" class="nm-bar-item nm-button nm-padding-large">Image Gallery</a>
   </div>
 </div>
 
@@ -19,36 +19,8 @@
 <!-- Header -->
 <header class="nm-red nm-center " style="padding:80px 0px">
   <div class="slideContainer">
-
   <img class="slideImg" src="originalpics/nm_slideshow1_original.jpg">
-  <img class="slideImg" src="originalpics/nm_slideshow2_original.jpg">
-  <img class="slideImg" src="originalpics/nm_slideshow3_original.jpg">
-  <img class="slideImg" src="originalpics/nm_slideshow4_original.jpg">
-  <img class="slideImg" src="originalpics/nm_slideshow5_original.jpg">
-  <img class="slideImg" src="originalpics/nm_slideshow7_original.jpg">
-  
-  <button class="nm-button nm-black nm-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="nm-button nm-black nm-display-right" onclick="plusDivs(1)">&#10095;</button>
 </div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slideImg");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
 </header>
 <footer class="nm-red nm-container nm-padding-64 nm-center nm-opacity">  
  
@@ -56,15 +28,11 @@ function showDivs(n) {
   <TR>
   <TD><B>PERSONAL LIFE</B>
   <br>
-  <a href="personalLife.html"><IMG SRC="thumbnails/nm_personallife_tn.jpg" height="71" width="105"></a>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/RbZz0KEVZI8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </TD>
   <TD><B>ACHIEVEMENTS</B>
   <br>
-  <a href="achievements.html"><IMG SRC="thumbnails/nm_achievements_tn.jpg" height="71" width="105"></a>
-  </TD>
-  <TD><B>IMAGE GALLERY</B>
-  <br>
-  <a href="imagegallery.html"><IMG SRC="thumbnails/nm_gallery_tn.jpg" height="71" width="105"></a>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wJOrdylwaSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </TD>
   </TR>
   </TABLE>
