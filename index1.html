@@ -21,34 +21,16 @@
   <div class="slideContainer">
 
   <img class="slideImg" src="originalpics/nm_slideshow1_original.jpg">
-  <img class="slideImg" src="originalpics/nm_slideshow2_original.jpg">
+  <!--img class="slideImg" src="originalpics/nm_slideshow2_original.jpg">
   <img class="slideImg" src="originalpics/nm_slideshow3_original.jpg">
   <img class="slideImg" src="originalpics/nm_slideshow4_original.jpg">
   <img class="slideImg" src="originalpics/nm_slideshow5_original.jpg">
-  <img class="slideImg" src="originalpics/nm_slideshow7_original.jpg">
+  <img class="slideImg" src="originalpics/nm_slideshow7_original.jpg"-->
   
-  <button class="nm-button nm-black nm-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="nm-button nm-black nm-display-right" onclick="plusDivs(1)">&#10095;</button>
+  <button class="nm-button nm-black nm-display-left" >&#10094;</button>
+  <button class="nm-button nm-black nm-display-right" >&#10095;</button>
 </div>
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
 
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("slideImg");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
 </header>
 <footer class="nm-red nm-container nm-padding-64 nm-center nm-opacity">  
  
